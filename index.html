@@ -10,6 +10,38 @@
     <title>Order a pizza!</title>
   </head>
   <body>
+    <h1>Build your pizza</h1><br>
+
+    <div class="container">
+    <div class="col-md-8">
+      <form id="createPizza">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="pepperoni" name="topping">
+          <label class="form-check-label" for="defaultCheck1">Pepperoni (+$2)</label><br>
+          <input class="form-check-input" type="checkbox" value="sausage" name="topping">
+          <label class="form-check-label" for="defaultCheck1">Sausage (+$2)</label><br>
+          <input class="form-check-input" type="checkbox" value="artichoke" name="topping">
+          <label class="form-check-label" for="defaultCheck1">Artichoke (+$2)</label><br>
+          <input class="form-check-input" type="checkbox" value="anchovies" name="topping">
+          <label class="form-check-label" for="defaultCheck1">Anchovies (+$2)</label><br>
+          <input class="form-check-input" type="checkbox" value="bellPepper" name="topping">
+          <label class="form-check-label" for="defaultCheck1">Bell Pepper (+$2)</label><br>
+          <input class="form-check-input" type="checkbox" value="olive" name="topping">
+          <label class="form-check-label" for="defaultCheck1">Black Olive (+$2)</label><br>
+          <input class="form-check-input" type="checkbox" value="onion" name="topping">
+          <label class="form-check-label" for="defaultCheck1">Onion (+$2)</label><br>
+          <select id="size" class="form-control form-control-sm"><br>
+            <option value="">Choose size</option>
+            <option value="Small">Small $10</option>
+            <option value="Medium">Medium $15</option>
+            <option value="Large">Large $20</option>
+          </select><br>
+        </div>
+        <button class="btn btn-primary" type="submit" id="order">Create Pizza</button>
+      </form>
+    </div>
+  </div>
+
   </body>
 
 </html>
